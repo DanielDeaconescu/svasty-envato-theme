@@ -769,6 +769,16 @@
     color: #fff;
 }
 
+
+.answer{
+    background-color: #f8f8f8;
+    padding: 20px;
+    line-height: 1.85em;
+    font-weight: 300;
+    letter-spacing: -0.75px;
+    font-family: 'Spartan', sans-serif;
+    transition: all 1s ease-out;
+}
 /* PART-9 */
 
 /* PART-10 */
@@ -850,6 +860,33 @@
 /* PART-10 */
 
 /* PART-11 */
+.mini-form{
+    position: relative;
+}
+
+.input-email{
+    display: block;
+    padding: 20px 20px;
+    width: 100%;
+    border-radius: 200px;
+    border-color: #e5e5e5e5;
+}
+
+.subscribe-btn{
+    display: block;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: #fff;
+    background-color: #4949fd;
+    padding: 15px 30px;
+    border-radius: 200px;
+    border: none;
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 600;
+}
+
 .corona-header{
     color: #4949fd;
     font-weight: 300;
@@ -859,14 +896,6 @@
     font-style: normal;
     color: #fd5a49;
     font-weight: 600;
-}
-
-.input-email{
-
-}
-
-.subscribe-btn{
-
 }
 
 .form-text{
